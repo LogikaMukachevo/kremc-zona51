@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+footer img {
+    width: 100px;
+    height: 100px;
+}
+h1, h2{
+    text-align: center;
+}
+
+nav {
+      display: flex;
+    justify-content: space-around;
+}
+nav a{
+    background-color: rgb(19, 19,19);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+nav a:hover{
+    background-color: rgb(51, 51,51);
+}
+a img{
+    width: 100%;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+article{
+    background-color: black;
+}
+article:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 15px 8px rgb(127,167,0);
+    transition: 0.5s linear;
+}
+
+main img{
+    width: 200px;
+}
+
+ h3,h4{
+    text-align: center;
+}
+
+iframe{
+   margin-left: auto;
+   margin-right: auto;
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 600px;
+}
